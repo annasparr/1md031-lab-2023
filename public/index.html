@@ -3,49 +3,55 @@
    <head>
        <title>BurgerGate!</title>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" type="text/css" href="style.css">
    </head>
    
    <body>
-        <header>
+        <header id = "header">
+            <!--<img src="https://blog.abim.org/wp-content/uploads/2020/01/restaurant-scaled.jpeg">-->
             <h1>Välkommen till BurgerGate!</h1>
         </header>
-    <br />
+    <br/>
 <main>
-    <section>
+
+    <section id="burgers">
     <h2>Välj din kontroversiella burgare!</h2>
         <p>Det här är var du väljer din burgare.</p>
-        <div style="display: inline-block;">
-        <h3>CheeseGate</h3>
-        <img src="https://img.koket.se/standard-large/tommy-myllymakis-saftiga-cheeseburgare.jpg" alt="Burger Image" title="SkandalSilverLök & Högrev" style="width: 200px;">
-        <ul>
-            <li>Inspirerad av skandalernas land, USA!</li> 
-            <li>En högklassig högrevsburgare med cheddarost & silverlök! </li>
-            <li>Innehåller gluten, kött, lök, laktos och gossip. </li>
-        </ul>
-    </div>
-    <div style="display: inline-block;">
-        <h3>WaterGate</h3>
-        <img src="https://shared.cdn.smp.schibsted.com/v2/images/82f3fa85-7b4b-4ccc-a7c7-213800dc2a15?fit=crop&h=750&w=1000&s=845630ab51d9b4e28369dc892af7c4a7b19baed8" alt="Burger Image" title="Classic Secret" style="width: 200px;">
-        <ul>
-            <li>Vår, liksom WaterGate, äldsta och mest hemliga burgare!</li>
-            <li>Kan kännas lite torr trots namnet :/</li>
-            <li>Innehåller gluten, kött, sallad, och hemligheter (fråga Nixon). </li>
-        </ul>
-    </div>
-    <div style="display: inline-block;">
-        <h3>VeganGate</h3>
-        <img src="https://www.thespruceeats.com/thmb/S3bw6OQYOHY2lfEHhdHn1U6wW_M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegan-mushroom-bean-burger-recipe-3378623-13_preview1-5b241897fa6bcc0036d2c9bf.jpeg" alt="Burger Image" title="Vegan Option" style="width: 200px;">
-        <ul>
-            <li>Ett alternativ för alla veganer där ute! </li>
-            <li>Inte så skandalös som de andra, men inte så god</li>
-            <li>Innehåller gluten, lök, och massa annat &lpar;den är vegansk&rpar;. </li>
-        </ul>
+        <div class = burgers>
+            <div class = burger a>
+            <h3>CheeseGate</h3>
+            <img src="https://img.koket.se/standard-large/tommy-myllymakis-saftiga-cheeseburgare.jpg" alt="Burger Image" title="SkandalSilverLök & Högrev" style="width: 200px;">
+            <ul>
+                <li>Inspirerad av skandalernas land, USA!</li> 
+                <li>En högklassig högrevsburgare med cheddarost & silverlök! </li>
+                <li>Innehåller <span class="ingredient">gluten, kött, lök, laktos</span> och <span class="ingredient">gossip</span>. </li>
+            </ul>
+        </div>
+        <div class = burger b>
+            <h3>WaterGate</h3>
+            <img src="https://shared.cdn.smp.schibsted.com/v2/images/82f3fa85-7b4b-4ccc-a7c7-213800dc2a15?fit=crop&h=750&w=1000&s=845630ab51d9b4e28369dc892af7c4a7b19baed8" alt="Burger Image" title="Classic Secret" style="width: 200px;">
+            <ul>
+                <li>Vår, liksom WaterGate, äldsta och mest hemliga burgare!</li>
+                <li>Kan kännas lite torr trots namnet &#128533;.</li>
+                <li>Innehåller <span class="ingredient">gluten, kött, sallad</span> och <span class="ingredient">hemligheter</span> (fråga Nixon). </li>
+            </ul>
+        </div>
+        <div class = burger c>
+            <h3>VeganGate</h3>
+            <img src="https://www.thespruceeats.com/thmb/S3bw6OQYOHY2lfEHhdHn1U6wW_M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegan-mushroom-bean-burger-recipe-3378623-13_preview1-5b241897fa6bcc0036d2c9bf.jpeg" alt="Burger Image" title="Vegan Option" style="width: 200px;">
+            <ul>
+                <li>Ett alternativ för alla veganer där ute! </li>
+                <li>Inte så skandalös som de andra, men inte så god.</li>
+                <li>Innehåller <span class="ingredient">gluten, lök</span> och<span class="ingredient"> massa annat</span> &lpar;den är vegansk&rpar;. </li>
+            </ul>
+        </div>
     </div>
 </section>
-</section>
-    <br />
+<br>
+<section id="info">
     <h2>Leveransinstruktioner</h2>
     <p>Det här är var du fyller i den informationen vi behöver för att kunna leverera din burgare.</p>
+    <br>
     <p>
         <label for="firstname">Namn</label><br>
         <input type="text" id="firstname" name="fn" required="required" placeholder="Förnamn+Efternamn">
@@ -86,8 +92,8 @@
         <img src=https://static.vecteezy.com/system/resources/previews/021/952/564/original/free-tasty-hamburger-on-transparent-background-free-png.png style="width: 40px;">
         Skicka Info!
       </button>
-
 </section>
+
     <hr>
      <footer>
       <p> &copy; 2023 Skandalburgare</p>

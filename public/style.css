@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+header {
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: center; /* Center text inside the header */
+    color: #ffffff; /* Set text color to white */
+
+    background-image: url('https://blog.abim.org/wp-content/uploads/2020/01/restaurant-scaled.jpeg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    height: 70vh; /* Set the height to 100% of the viewport height */
+    /*margin: 20px, 10px, 10px, 10px;*/
+
+}
+
+header h1 {
+    margin: 0;
+    position: relative; /* Add relative positioning */
+    line-height: 15; /* Adjust the line-height */
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+section {
+    margin: 20px, 10px, 10px, 10px; /* Add top margin */
+}
+
+/* Add margin to the <p> elements */
+p {
+    margin-top: 10px; /* Add top margin */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+
+#burgers div {
+    margin: 2px; /* Add margin around the div elements */
+    padding: 2px; /* Add padding inside the div elements */
+}
+
+#burgers h2, #burgers h3, #info h2, #info button, #burgers p, #info p, #burgers img {
+    margin-left: 10px; /* Add left margin */
+}
+
+.burgers {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: #000;
+}
+
+.burger {
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#info button {
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: 'Lato', "Times New Roman", "Courier New", sans-serif;
+
+    .ingredient{
+        color: #0e8f60;
+        font-weight: bold;
+    }
+
+    #burgers {
+        border: 2px dashed #ffffff; /* White dashed border */
+        background-color: #000000; /* Black background color */
+        color: #ffffff; /* White text color */
+        
+    }
+    
+    /* Add a border to the "info" section */
+    #info {
+        border: 2px dashed #000000; /* Black dashed border */
+        background-color: #ffffff; /* White background color */
+    }
+     
+}
+
+button:hover {
+    background-color: #20792f;
+    cursor: pointer;
+ }
+
+/* const skills = [
+    {
+        skill:
+        proficiancy:
+    },
+    {}
+]
+
+let myLi, mySpan;
+for(let skill of skills ){
+    myLi = document.createElement("Li");
+    mySpan = document.createElement("span")
+    mySpan.textContent = skill.proficiency
+    mySpan.setAttribute("class",skill.proficiecny.replace("","-"));
+    myLi.textContent = skill.skill+" "+skill.proficiency
+    myLi.appendChild(mySoab)
+    document.getElementById("skills").appendChild(myLI)
+}
+denna skpara klasser, sen kan man skapa regler för klasserna 

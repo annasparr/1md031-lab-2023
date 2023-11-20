@@ -1,0 +1,30 @@
+
+[
+    {
+      "name": "CheeseGate",
+      "img": "https://img.koket.se/standard-large/tommy-myllymakis-saftiga-cheeseburgare.jpg",
+      "kCal": 600,
+      "gluten": true,
+      "lactose": true,
+      "desc": "Inspirerad av skandalernas land, USA!"
+    }
+    ,
+    {
+        "name": "WaterGate",
+        "img": "https://shared.cdn.smp.schibsted.com/v2/images/82f3fa85-7b4b-4ccc-a7c7-213800dc2a15?fit=crop&h=750&w=1000&s=845630ab51d9b4e28369dc892af7c4a7b19baed8",
+        "kCal": 500,
+        "gluten": true,
+        "lactose": false,
+        "desc": "Vår, liksom WaterGate, hemligaste burgare!"
+    }
+    , 
+    {
+        "name": "VeganGate",
+        "img": "https://www.thespruceeats.com/thmb/S3bw6OQYOHY2lfEHhdHn1U6wW_M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegan-mushroom-bean-burger-recipe-3378623-13_preview1-5b241897fa6bcc0036d2c9bf.jpeg",
+        "kCal": 400,
+        "gluten": false,
+        "lactose": false,
+        "desc": "Ett alternativ för alla veganer där ute!"
+    }
+
+  ]
